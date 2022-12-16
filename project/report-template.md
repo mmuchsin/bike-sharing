@@ -47,4 +47,7 @@ i'll spend more time on feature engineering.
 ![model_test_score.png](img/model_test_score.png)
 
 ## Summary
-TODO: Add your explanation
+in this project:
+- ensemble model outperforms other individual models.
+- feature engineering did the best job to improve model performance.
+- hyperparameter optimization did a great job but not as good as feature engineering.
