@@ -130,3 +130,6 @@ dmypy.json
 
 # Kaggle credential
 kaggle.json
+
+# VSCode settings
+.vscode
