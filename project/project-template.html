@@ -16888,7 +16888,7 @@ Name: count, dtype: float64</pre>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
      <div class="CodeMirror cm-s-jupyter">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">submission</span><span class="p">[</span><span class="s2">"count"</span><span class="p">]</span> <span class="o">=</span> <span class="n">predictions</span>
-<span class="n">submission</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"submission.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">submission</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"submissions/submission.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -18384,7 +18384,7 @@ Name: count, dtype: float64</pre>
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Same submitting predictions</span>
 <span class="n">submission_new_features</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"sampleSubmission.csv"</span><span class="p">,</span> <span class="n">parse_dates</span><span class="o">=</span><span class="p">[</span><span class="s2">"datetime"</span><span class="p">])</span>
 <span class="n">submission_new_features</span><span class="p">[</span><span class="s2">"count"</span><span class="p">]</span> <span class="o">=</span> <span class="n">predictions_new</span>
-<span class="n">submission_new_features</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"submission_new_features.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">submission_new_features</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"submissions/submission_new_features.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
      </div>
@@ -20301,7 +20301,7 @@ TabularPredictor saved. To load, use: predictor = TabularPredictor.load(&#34;Aut
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Same submitting predictions</span>
 <span class="n">submission_new_hpo</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">"dataset/sampleSubmission.csv"</span><span class="p">,</span> <span class="n">parse_dates</span><span class="o">=</span><span class="p">[</span><span class="s2">"datetime"</span><span class="p">])</span>
 <span class="n">submission_new_hpo</span><span class="p">[</span><span class="s2">"count"</span><span class="p">]</span> <span class="o">=</span> <span class="n">predictions_new_hpo3</span>
-<span class="n">submission_new_hpo</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"submission_new_hpo.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="n">submission_new_hpo</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s2">"submissions/submission_new_hpo.csv"</span><span class="p">,</span> <span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
      </div>
